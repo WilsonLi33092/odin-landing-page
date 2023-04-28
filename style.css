@@ -1,0 +1,61 @@
+.container-one {
+    background-color: lightblue;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+}
+img {
+    width:200px;
+    height:200px;
+}
+.container-two{
+    text-align: center;
+}
+.container-three {
+    background-color: lightgrey;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin:0 40px;
+}
+.header li, .header h2 {
+    color: white;
+}
+.title-content{
+    display: flex;
+    margin: 0 40px;
+    gap: 100px;
+}
+.non-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width:200px;
+}
+.author {
+    text-align: end;
+}
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
