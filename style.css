@@ -32,10 +32,10 @@ ul {
 }
 .title-content{
     display: flex;
-    margin: 0 40px;
-    gap: 100px;
+    margin: auto;
+    width: 500px;
 }
-.non-image {
+.non-image, .sign-up-text {
     display: flex;
     flex-direction: column;
 }
@@ -54,8 +54,27 @@ ul {
     text-align: end;
 }
 .quote {
+    width:300px;
+    margin:auto;
+    padding: 30px;
+    font-size: 22px;
+}
+.sign-up-box {
+    background-color: blue;
+    width: 900px;
+    height: 100px;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sign-up-button {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
 }
